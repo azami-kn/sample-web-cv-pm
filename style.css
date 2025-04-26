@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #7e7dbb;
+    color: #333;
+  }
+
+  .navbar {
+    background-color: #002855;
+    padding: 10px 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .logo span {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #fdb913;
+  }
+  
+  .pm {
+  color: white;
+   }
+
+  .hero {
+    height: 100vh;
+    background-image: url('security1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero .btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #fdb913;
+    color: #002855;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  .btn-wa {
+    display: inline-block;
+    margin-top: 20px;
+    background: #25D366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn-wa:hover {
+    transform: translateY(-5px);
+  }
+
+  .dev-footer {
+    background: #002855;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  

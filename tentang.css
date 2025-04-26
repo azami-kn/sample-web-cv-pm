@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.tentang {
+  padding: 60px 20px;
+  place-items: center;
+  height: 100vh;
+}
+
+.tentang h2 {
+  color: #002855;
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.tentang-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tentang-item {
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 180vh;
+  height: auto;
+  text-align: center;
+}
+
+.tentang-item:hover {
+  transform: translateY(-5px);
+}
+
+.tentang-item h3 {
+  color: #002855;
+  margin-bottom: 10px;
+}
+
+.tentang-item p {
+  color: #333;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.tentang-back {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn-back {
+  background-color: #002855;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  display: inline-block;
+}
+
+.btn-back:hover {
+  background-color: #fdb913;
+  color: #002855;
+}

@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.layanan {
+  padding: 60px 20px;
+  text-align: center;
+  height: 100vh;
+}
+
+.layanan h2 {
+  color: #002855;
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.layanan-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.layanan-item {
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  padding: 25px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.layanan-item:hover {
+  transform: translateY(-5px);
+}
+
+.layanan-item h3 {
+  color: #002855;
+  margin-bottom: 10px;
+}
+
+.layanan-item p {
+  color: #333;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.layanan-back {
+  margin-top: 40px;
+  text-align: center; 
+}
+
+.btn-back {
+  background-color: #002855;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  display: inline-block;
+}
+
+.btn-back:hover {
+  background-color: #fdb913;
+  color: #002855;
+}
